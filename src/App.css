@@ -1,0 +1,27 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background: white;
+}
+
+.btn {
+   padding: 10px 20px;
+   background-color: none;
+   font-size: 30px;
+   background: transparent;
+   border: 2px solid green;
+   cursor: pointer;
+   transition: all 0.2s ease-in;
+   background: rgb(3, 157, 3);
+   color: white;
+}
+
+.btn:hover {
+   background: green;
+}
+
+.btn:active {
+   transform: scale(0.95);
+}
